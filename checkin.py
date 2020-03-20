@@ -40,9 +40,7 @@ def checkSpeed():
     
 def checkin():
     dl = checkSpeed()
-    print('Couldnt Check speed')
     fing = fingData()
-    print("Couldnt perform find")
     now = datetime.datetime.now()
     date = now.strftime('%Y-%m-%d %H:%M:%S')
     data = {
